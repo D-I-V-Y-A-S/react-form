@@ -1,0 +1,60 @@
+.topic
+{
+    font-size: x-large;
+    font-weight: 100px;
+    color:white;
+    text-align: center;
+    padding: 2%;
+}
+
+.label-name
+{
+margin-left:10%;
+font-size: larger;
+margin-right: 5%;
+}
+
+.field{
+margin-top:8%;
+margin-left :25%;
+width:50%;
+border:2px solid white;
+background-color: lightskyblue;
+}
+
+.input-field
+{
+    border-radius: 50px;
+    padding:20px;
+    border:none;
+    outline:none;
+    margin-bottom: 5%;
+    color:black;
+    background-color: azure;
+}
+select
+{
+    padding: 2%;
+    width:30%;
+    border-radius: 50px;
+    background-color: azure;
+    color:black;
+}
+
+.btn{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin:5%;
+    width:150px;
+    padding: 2%;
+    background-color: azure;
+    color:black;
+    border:none;
+    outline: none;
+}
+
