@@ -24,7 +24,6 @@ const RegistrationFormComponent = () => {
     const handleRegistrationForm = (event) => {
 
         event.preventDefault();
-        //text place in field doesn't disappear.
         console.log(firstName);
         console.log(lastName);
         console.log(stateName);
@@ -89,9 +88,3 @@ const RegistrationFormComponent = () => {
 }
 
 export default RegistrationFormComponent;
-
-/*
-1.Create usestate for every label.
-2.Assign values through setstate.
-3.Log the values on submitting the form.
-*/

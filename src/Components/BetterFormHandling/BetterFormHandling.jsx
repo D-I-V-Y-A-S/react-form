@@ -4,7 +4,7 @@ const BetterFormHandling = () => {
 
   const [inputs, setInputs] = useState({})
   
-  //{}empty object.
+  
 
   const handleInput = (event) => {
     const name = event.target.name
@@ -13,7 +13,7 @@ const BetterFormHandling = () => {
       ...values, [name]: value
     }))
   }
-  //...values->spread operator -no need of mentioning size expands to incoming values.
+ 
   function handleRegistrationForm(event) {
     event.preventDefault()
     console.log(inputs)
